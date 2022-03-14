@@ -25,7 +25,8 @@
 
 
     <header
-        class="fixed top-0 left-0 z-10 flex flex-row items-center justify-between w-full px-8 py-4 mb-12 transition-all duration-300 ease-in-out border-b-0 shadow-none lg:py-6">
+        class="fixed top-0 left-0 z-10 flex flex-row items-center justify-between w-full px-8 py-4 mb-12 transition-all duration-300 ease-in-out  border-b-0 shadow-none lg:py-6 
+        <?php echo is_front_page() ? 'border-b-0' : 'border-b border-slate-300/10' ?>">
         <img src="{{Storage::url('img/logo.jpg')}}" alt="Logo" class="h-12 mr-4 lg:hidden">
         <h2 class="text-xl font-bold text-slate-800 dark:text-slate-100 lg:text-3xl">OSP Robakowo<span
                 class="text-red-700">.</span></h2>
@@ -58,7 +59,7 @@
 
     </header>
 
-    <div class="flex-1">
+    <div class="flex-1 pt-24 pb-12 mx-auto max-w-7xl">
 
     
     

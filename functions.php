@@ -46,7 +46,7 @@ function osp_widgets_init() {
 	register_sidebar(
 		array(
 			'name'          => 'Akapit wejściowy strony głównej',
-			'id'            => 'sidebar-1',
+			'id'            => 'home-1',
 			'description'   => 'Akapit powitalny w części środkowej',
 			'before_widget' => '<aside id="%1$s" class="widget %2$s">',
 			'after_widget'  => '</aside>',

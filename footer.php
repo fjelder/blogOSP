@@ -18,22 +18,22 @@
                         woj. Wielkopolskie</span>
                 </a>
             </div>
-            <div class="space-y-2 text-sm">
+            <div class="space-y-2 text-sm text-slate-700 dark:text-slate-400">
                 <p class="text-base font-bold tracking-wide text-slate-700 dark:text-slate-50">
                     Kontakt
                 </p>
                 <div class="flex">
-                    <p class="mr-1 text-gray-800">Telefon:</p>
+                    <p class="mr-1">Telefon:</p>
                     <a href="tel:+48 698 542 156" aria-label="" title=""
                         class="text-red-400 transition-colors duration-300 hover:text-red-800">+48 698 542 156</a>
                 </div>
                 <div class="flex">
-                    <p class="mr-1 text-gray-800">Email:</p>
+                    <p class="mr-1">Email:</p>
                     <a href="mailto:kontakt@osprobakowo.pl" aria-label="" title=""
                         class="text-red-400 transition-colors duration-300 hover:text-red-800">kontakt@osprobakowo.pl</a>
                 </div>
                 <div class="flex flex-col">
-                    <p class="mr-1 text-gray-800">Tymczasowy adres:</p>
+                    <p class="mr-1">Tymczasowy adres:</p>
                     <a href="https://goo.gl/maps/WXKLSCLZqF3Gmqdd7" target="_blank" rel="noopener noreferrer"
                         aria-label="" title=""
                         class="transition-colors duration-300 text-red-accent-400 hover:text-red-800">
@@ -45,23 +45,23 @@
             <div class="space-y-10 md:space-y-3">
                 <div>
                     <span class="text-base font-bold tracking-wide text-slate-700 dark:text-slate-50">Dane Organizacji</span>
-                    <div class="text-sm uppercase text-slate-700 dark:text-slate-400">
+                    <div class="text-sm text-slate-700 dark:text-slate-400">
                         <div class="flex">
                             <p class="mr-1">Nip:</p>
-                            <p class="text-red-400 dark:text-red-800">777 336 79 53</p>
+                            <p class="text-red-400">777 336 79 53</p>
                         </div>
                         <div class="flex">
                             <p class="mr-1">Regon:</p>
-                            <p class="text-red-400 dark:text-red-800"">300 951 750</p>
+                            <p class="text-red-400">300 951 750</p>
                         </div>
                         <div class="flex">
                             <p class="mr-1">Krs:</p>
-                            <p class="text-red-400 dark:text-red-800"">0000266422</p>
+                            <p class="text-red-400">0000266422</p>
                         </div>
                     </div>
                 </div>
                 <div>
-                    <span class="text-base font-bold tracking-wide text-gray-900">Nasze media społecznościowe</span>
+                    <span class="text-base font-bold tracking-wide text-slate-700 dark:text-slate-50">Nasze media społecznościowe</span>
                     <div class="flex items-center mt-1 space-x-3">
 
                         <a href="https://www.facebook.com/Ochotnicza-Stra%C5%BC-Po%C5%BCarna-w-Robakowie-508009266665390/"
