@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* header sticky */
+header.sticky2 {
+  @apply px-8 py-4 border-b shadow bg-slate-100 dark:border-slate-300/10 dark:bg-slate-800/90 lg:px-24 lg:py-4;
+}
+
+header.sticky2 div ul.menu-header {
+  @apply bg-transparent;
+}
