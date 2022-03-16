@@ -10,13 +10,13 @@ class entry_widget extends WP_Widget
         extract($args);
         $message = $instance['message'];
         $label = $instance['label'];
-        if($label !== '') {
-        ?>
+        if ($label !== '') {
+            ?>
 <p
     class="inline-block px-3 py-px mb-4 text-xs font-semibold tracking-wider text-teal-900 uppercase bg-teal-400 rounded-full">
     <?php echo $label; ?>
 </p>
-<?php } ?>
+<?php }?>
 <h2
     class="mb-5 font-sans text-3xl font-bold tracking-tight text-slate-900 dark:text-slate-50 sm:text-4xl sm:leading-none">
     Ochotnicza <br class="hidden md:block" />

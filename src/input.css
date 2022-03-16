@@ -9,3 +9,7 @@ header.sticky2 {
 header.sticky2 div ul.menu-header {
   @apply bg-transparent;
 }
+
+header.sticky2 #theme-toggle {
+  @apply dark:text-slate-200;
+}
